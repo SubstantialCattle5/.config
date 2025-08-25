@@ -1,0 +1,6 @@
+[submodule "alacritty"]
+	path = alacritty
+	url = https://github.com/alacritty/alacritty.git
+[submodule "spicetify/Themes/spicetify-themes"]
+	path = spicetify/Themes/spicetify-themes
+	url = https://github.com/spicetify/spicetify-themes
