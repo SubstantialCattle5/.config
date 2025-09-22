@@ -1,0 +1,21 @@
+{
+  "name": "Photo Vault Template",
+  "description": "A secure vault template optimized for photo storage with high compression and smart deduplication",
+  "version": "1.0.0",
+  "author": "Sietch Team",
+  "tags": ["photos", "media", "storage", "secure"],
+  "config": {
+    "chunking_strategy": "fixed",
+    "chunk_size": "8MB",
+    "hash_algorithm": "sha256",
+    "compression": "gzip",
+    "sync_mode": "manual",
+    "enable_dedup": true,
+    "dedup_strategy": "content",
+    "dedup_min_size": "1MB",
+    "dedup_max_size": "64MB",
+    "dedup_gc_threshold": 500,
+    "dedup_index_enabled": true,
+    "dedup_cross_file": true
+  }
+}
